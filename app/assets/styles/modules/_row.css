@@ -10,7 +10,7 @@
     margin-right: -65px;
   }
 
-  &--gutters-large{
+  &--gutters-large {
     margin-right: -100px;
   }
 
@@ -51,7 +51,7 @@
 
     &__medium-6 {
       float: left;
-      width: 50%
+      width: 50%;
     }
 
     &__medium-8 {
@@ -61,18 +61,6 @@
 
     &__medium-8--smaller {
       width: 63%;
-    }
-  }
-  
-  /* Begin Equal Height Rules */
-  &--equal-height-at-medium {
-    @mixin atMedium{
-      display: flex;
-    }
-
-    & > div {
-      float: none;
-      display: flex;
     }
 
   }
@@ -94,7 +82,7 @@
 
     &__large-6 {
       float: left;
-      width: 50%
+      width: 50%;
     }
 
     &__large-8 {
@@ -105,11 +93,12 @@
     &__large-8--smaller {
       width: 63%;
     }
+
   }
   
   /* Begin Equal Height Rules */
   &--equal-height-at-medium {
-    @mixin atMedium{
+    @mixin atMedium {
       display: flex;
     }
 
@@ -121,7 +110,7 @@
   }
 
   &--equal-height-at-large {
-    @mixin atLarge{
+    @mixin atLarge {
       display: flex;
     }
 
